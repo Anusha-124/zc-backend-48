@@ -1,0 +1,23 @@
+GET /get-location
+GET/ get-restarant-by-location-id
+GET/get-meal-types
+GET/get-restarant-details-by-id
+GET/get-menu-item-list-by-restarant-id
+
+
+GET/filter
+        meal-type(mandatory)
+        location
+        Cuisine
+        hcost-lcost
+        sort
+        page
+
+
+POST/login
+POST/sign-up
+
+
+
+POST /payment
+POST /save-order
