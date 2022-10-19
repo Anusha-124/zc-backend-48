@@ -7,7 +7,7 @@ const APIRouter = require("./Routes/APIRouter");
 
 
 const PORT = process.env.PORT || 5003;
-const URI = 'mongodb://127.0.0.1:27017/batch48edureka'
+const URI = 'mongodb+srv://anusha:9966621393@edurekaa.txy4g5e.mongodb.net/?retryWrites=true&w=majority'
 
 app.use(express.json()); // convert string JSON data to pure json data
 app.use(express.urlencoded({ extended: false })); // normal post data  to json data
