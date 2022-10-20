@@ -8,7 +8,7 @@ const MealTypeSchema = new Schema(
        "meal_type":  {type:Number},
      });
 
-const MealTypesModel = mongoose.model("mealtype",MealTypeSchema,"mealtypes");
+const MealTypesModel = mongoose.model("mealtype",MealTypeSchema);
 
 
 
